@@ -1,0 +1,91 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-top: 15px;
+}
+
+/* des */
+
+.des {
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+/*option*/
+
+.option {
+  margin-bottom: 25px;
+}
+
+/*input*/
+
+.input_field {
+  width: 70%;
+}
+
+/*button*/
+
+.select_btn {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.select_btn:hover {
+  color: #fff;
+  background: #000;
+}
+
+/*price*/
+
+.price h4 {
+  border-bottom: 1px solid #000;
+}
+
+.price p {
+  font-size: 20px;
+}
+
+.base_price {
+  margin-left: 117px;
+}
+.memory_price {
+  margin-left: 78px;
+}
+.storage_price {
+  margin-left: 85px;
+}
+.delivery_price {
+  margin-left: 60px;
+}
+.total_price {
+  margin-left: 178px;
+  font-weight: bold;
+}
+.total h4 {
+  font-weight: bold;
+}
+
+.promo_total {
+  background: radial-gradient(#ffaf00, #fff401);
+  padding: 10px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.promo_total h2 {
+  margin: 0;
+}
